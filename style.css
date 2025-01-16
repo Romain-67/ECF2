@@ -1,0 +1,51 @@
+.inter_text {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#4A5568;
+  }
+
+.inspiration-regular {
+    font-family: "Inspiration", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:24px;
+  }
+
+.menu {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 15px;
+    box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
+  }
+
+.menu_elements {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 50px;
+    font-weight:500;
+}
+
+.logo {
+    display:flex;
+    flex-wrap:nowrap;
+    gap:5px;
+    margin-left:30px;
+  }
+
+.contact_button {
+    font-weight:500;
+    color:white;
+    background: linear-gradient(20deg, rgba(87,0,123,1) 0%, rgba(102,117,247,1) 100%);
+    border:none;
+    border-radius:5px;
+    padding:14px 25px;
+    margin-right:15px;
+}
+
+body {
+    margin:0px;
+}
