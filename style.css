@@ -1,3 +1,4 @@
+@media (min-width:1025px) {
 .inter_text {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -29,6 +30,10 @@
     font-weight:500;
 }
 
+.burger_menu {
+    display:none;
+}
+
 .logo {
     display:flex;
     flex-wrap:nowrap;
@@ -38,6 +43,7 @@
 
 .contact_button {
     font-weight:500;
+    font-size:14px;
     color:white;
     background: linear-gradient(20deg, rgba(87,0,123,1) 0%, rgba(102,117,247,1) 100%);
     border:none;
@@ -46,6 +52,251 @@
     margin-right:15px;
 }
 
+.flex_header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    font-weight:400;
+}
+
+header h1 {
+  font-size:45px;
+  font-weight:300;
+  color:black;
+}
+
+.header_bold {
+  font-weight:800;
+  font-size:53px;
+}
+
+.header_gradient_1 {
+  font-weight:800;
+  background: -webkit-linear-gradient(#DE4396, #BB79BB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header_gradient_2 {
+  background: -webkit-linear-gradient(255deg, #e77ca5, #3c61db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+    font-size:18px;
+}
+
+.header_button {
+    background-color:#3D63EA;
+    color:white;
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    padding:17px 35px;
+    margin-top:75px;
+}
+
 body {
     margin:0px;
 }
+
+}
+
+@media only screen and (min-width:700px) and (max-width:1025px){
+        .inter_text {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color:#4A5568;
+        font-size:12px;
+      }
+    
+    .inspiration-regular {
+        font-family: "Inspiration", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:24px;
+      }
+
+      .menu {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:0px 15px;
+        box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
+      }
+    
+    .menu_elements {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap: 25px;
+        font-weight:500;
+    }
+    
+    .burger_menu {
+        display:none;
+    }
+
+    .logo {
+        display:flex;
+        flex-wrap:nowrap;
+        gap:5px;
+      }
+    
+    .contact_button {
+        font-weight:500;
+        color:white;
+        background: linear-gradient(20deg, rgba(87,0,123,1) 0%, rgba(102,117,247,1) 100%);
+        border:none;
+        border-radius:5px;
+        padding:7px 15px;
+    }
+
+    .flex_header {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:center;
+      font-weight:400;
+  }
+  
+  header h1 {
+    font-size:35px;
+    font-weight:300;
+    color:black;
+  }
+  
+  .header_bold {
+    font-weight:800;
+    font-size:40px;
+  }
+  
+  .header_gradient_1 {
+    font-weight:800;
+    background: -webkit-linear-gradient(#DE4396, #BB79BB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .header_gradient_2 {
+    background: -webkit-linear-gradient(255deg, #e77ca5, #3c61db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  header p {
+      font-size:18px;
+  }
+  
+  .header_button {
+      background-color:#3D63EA;
+      color:white;
+      font-size:15px;
+      border:none;
+      border-radius:5px;
+      padding:17px 35px;
+      margin-top:25px;
+  }
+
+  .header_img_size {
+    width:80%;
+  }
+
+}
+
+@media only screen and (max-width:700px){
+
+    .inter_text {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color:#4A5568;
+      }
+    
+    .inspiration-regular {
+        font-family: "Inspiration", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .menu {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:0px 15px;
+        box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
+      }
+    
+    .menu_elements {
+       display:none;
+    }
+    
+    .burger_menu {
+        width:75px;
+    }
+
+    .logo {
+        display:flex;
+        flex-wrap:nowrap;
+        gap:5px;
+        margin-left:30px;
+      }
+    
+    .contact_button {
+        display:none;
+    }
+
+    .flex_header {
+      display:flex;
+      flex-direction:column;
+      font-weight:400;
+  }
+  
+  header h1 {
+    font-size:35px;
+    font-weight:300;
+    color:black;
+  }
+  
+  .header_bold {
+    font-weight:800;
+    font-size:40px;
+  }
+  
+  .header_gradient_1 {
+    font-weight:800;
+    background: -webkit-linear-gradient(#DE4396, #BB79BB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .header_gradient_2 {
+    background: -webkit-linear-gradient(255deg, #e77ca5, #3c61db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  header p {
+      font-size:18px;
+  }
+  
+  .header_button {
+      background-color:#3D63EA;
+      color:white;
+      font-size:15px;
+      border:none;
+      border-radius:5px;
+      padding:17px 35px;
+      margin-top:25px;
+  }
+
+  .header_img_size {
+    width:80%;
+  }
+      
+    }
